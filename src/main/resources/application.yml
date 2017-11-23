@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: admin-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9010/eureka/
+server:
+  port: 9000
